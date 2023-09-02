@@ -24,6 +24,7 @@ body {
 }
 
 .btn {
+    display: inline-block;
     width: 186px;
     height: 68px;
     flex-shrink: 0;
@@ -31,6 +32,20 @@ body {
     background: var(--primary-color);
     box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
     border: transparent;
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading.lv1 {
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.16; /* 116.129% */
 }
 
 a {
@@ -44,6 +59,7 @@ a {
 .header.fixed {
     position: sticky;
     top: -44px;
+    z-index: 1;
 }
 
 .header .logo {
@@ -115,4 +131,185 @@ a {
 .actions .signup-btn:hover {
     background-color: var(--primary-color);
     color: #fff;
+}
+
+/* Hero */
+
+.hero {
+    margin-top: 54px;
+}
+
+.hero .body {
+    display: flex;
+    gap: 136px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .sub-title {
+    color: #767e7e;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.hero .info-block .title {
+    width: 458px;
+    padding: 18px 0 46px;
+}
+
+.hero .info-block .desc {
+    color: #9da6a5;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.78; /* 177.778% */
+    margin-bottom: 52px;
+}
+
+.hero .info-block .watch-video {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    border: transparent;
+    background-color: #fff;
+    margin-left: 50px;
+}
+
+.hero .info-block .watch-video:hover {
+    background-color: #1ebec134;
+    cursor: pointer;
+}
+
+.hero .image-block {
+    width: 55%;
+    position: relative;
+}
+
+.hero .image-block .hero-img {
+    width: 576px;
+    height: 631px;
+    object-fit: cover;
+}
+
+.hero .image-block .hero-courses {
+    display: flex;
+    position: absolute;
+    top: 149px;
+    left: -40px;
+    width: 157px;
+    height: 75px;
+    border-radius: 18px;
+    background: #fefefd;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .image-block .hero-courses::before {
+    content: "";
+    display: block;
+    width: 36px;
+    height: 40px;
+    background-color: #ff8282;
+    border-radius: 5px;
+    position: absolute;
+    left: 25px;
+}
+
+.hero .image-block .hero-courses::after {
+    content: "";
+    position: absolute;
+    left: 29px;
+    top: 45px;
+    width: 28px;
+    height: 4px;
+    background-color: #fff;
+}
+
+.hero .hero-courses .label-block {
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 40px;
+    line-height: 1.4;
+}
+
+.hero .hero-courses .hero-courses__label {
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.hero .image-block .hero-schedules {
+    position: absolute;
+    width: 124px;
+    height: 132px;
+    border-radius: 24px;
+    background: #fff;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+    bottom: 46px;
+    left: -65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.hero .hero-schedules .hero-schedules__label {
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.hero .hero-schedules .hero-schedules__img {
+    width: 74px;
+    height: 6px;
+}
+
+.hero .image-block .hero-students {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 207px;
+    height: 90px;
+    border-radius: 24px;
+    background: #fefefd;
+    box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+    bottom: 41px;
+    right: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .hero-students .avatar-list {
+    display: flex;
+    position: relative;
+}
+
+.hero .hero-students .avatar {
+    width: 33px;
+    height: 33px;
+    object-fit: cover;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+}
+
+.hero .hero-students .avatar:last-child {
+    display: inline-block;
+    line-height: 33px;
+    color: #fff;
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.hero .hero-students .avatar + .avatar {
+    margin-left: -10px;
+}
+
+.hero .hero-students .hero-student__label {
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 8px;
 }
