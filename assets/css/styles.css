@@ -41,6 +41,10 @@ body {
     align-items: center;
 }
 
+.btn:hover {
+    opacity: 0.9;
+}
+
 .heading.lv1 {
     color: #0d1111;
     font-size: 6.2rem;
