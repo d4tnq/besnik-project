@@ -43,6 +43,7 @@ body {
 
 .btn:hover {
     opacity: 0.9;
+    cursor: pointer;
 }
 
 .heading.lv1 {
@@ -691,4 +692,36 @@ a {
     right: 25%;
     top: 16%;
     bottom: 20%;
+}
+
+/* CTA */
+
+.cta-container {
+    background: #def6f5;
+    margin-top: 80px;
+}
+
+.cta-container .body {
+    padding: 76px 0 88px;
+}
+
+.cta-container .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-container .body .cta-info {
+    width: 36%;
+}
+
+.cta-container .cta-info .desc {
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 18px;
+}
+
+.cta-container .body .cta-btn {
+    margin-right: 13%;
 }
