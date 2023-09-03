@@ -531,3 +531,9 @@ a {
     font-weight: 400;
     margin-top: 11px;
 }
+
+.stats .stats-list .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
