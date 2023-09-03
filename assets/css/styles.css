@@ -385,3 +385,130 @@ a {
     font-weight: 400;
     line-height: 1.69; /* 168.75% */
 }
+
+/* Courses */
+
+.courses {
+    margin-top: 30px;
+    padding: 50px 0 50px;
+}
+
+.courses .courses-info .sub-title {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.courses .courses-info .title {
+    padding: 18px 0 19px;
+}
+
+.courses .courses-info .courses-desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 79px;
+}
+
+.courses .courses-info .desc {
+    width: 45%;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.78; /* 177.778% */
+}
+
+.courses .courses-info .view-courses {
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.courses .courses-list {
+    display: flex;
+    flex: 1;
+    gap: 47px;
+}
+
+.courses .course-item {
+    position: relative;
+}
+
+.courses .course-item .thumb {
+    width: 359px;
+    height: 393px;
+    object-fit: cover;
+    border-radius: 8px;
+    opacity: 0.7;
+    background: #d0efed;
+}
+
+.courses .course-item .content {
+    position: absolute;
+    max-width: 325px;
+    height: 195px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+    bottom: -124px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 18px 25px 29px 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.courses .course-item .title {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.courses .course-item .price {
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.courses .course-item .price strong {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.courses .course-item .desc {
+    color: #9da6a5;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 6px 0 18px;
+}
+
+.courses .course-item .more {
+    display: flex;
+    gap: 10px;
+    color: #9da6a5;
+    font-size: 1.4rem;
+    font-weight: 400;
+    width: 100%;
+}
+
+.course-item .more .duration,
+.course-item .more .classes {
+    display: flex;
+    align-items: center;
+}
+.course-item .more .duration::before,
+.course-item .more .classes::before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    margin-right: 10px;
+}
