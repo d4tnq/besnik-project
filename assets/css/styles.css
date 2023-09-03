@@ -33,6 +33,7 @@ body {
     box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
     border: transparent;
     color: #fff;
+    line-height: normal;
     text-align: center;
     font-size: 1.8rem;
     font-weight: 600;
@@ -162,6 +163,7 @@ a {
     color: #767e7e;
     font-size: 1.4rem;
     font-weight: 400;
+    line-height: normal;
 }
 .hero .info-block {
     animation: moveTopToBottom 1s ease-in-out;
@@ -377,6 +379,7 @@ a {
     color: #767e7e;
     font-size: 1.2rem;
     font-weight: 700;
+    line-height: normal;
 }
 
 .features .features-info .desc {
@@ -385,6 +388,7 @@ a {
     font-size: 1.8rem;
     font-weight: 400;
     margin-bottom: 80px;
+    line-height: normal;
 }
 
 .features .features-list {
@@ -407,6 +411,7 @@ a {
     font-size: 2rem;
     font-weight: 600;
     padding: 26px 0 16px;
+    line-height: normal;
 }
 
 .features .features-item .item-desc {
@@ -427,9 +432,11 @@ a {
     color: #767e7e;
     font-size: 1.2rem;
     font-weight: 700;
+    line-height: normal;
 }
 
 .courses .courses-info .title {
+    line-height: normal;
     padding: 18px 0 19px;
 }
 
@@ -453,6 +460,7 @@ a {
     font-size: 1.4rem;
     font-weight: 700;
     text-decoration-line: underline;
+    line-height: normal;
 }
 
 .courses .courses-list {
@@ -497,6 +505,7 @@ a {
     color: #0d1111;
     font-size: 2.2rem;
     font-weight: 700;
+    line-height: normal;
 }
 
 .courses .course-item .price {
@@ -504,6 +513,7 @@ a {
     font-size: 1.6rem;
     font-weight: 400;
     margin-top: 16px;
+    line-height: normal;
 }
 
 .courses .course-item .price strong {
@@ -517,6 +527,7 @@ a {
     font-size: 1.4rem;
     font-weight: 400;
     margin: 6px 0 18px;
+    line-height: normal;
 }
 
 .courses .course-item .more {
@@ -526,6 +537,7 @@ a {
     font-size: 1.4rem;
     font-weight: 400;
     width: 100%;
+    line-height: normal;
 }
 
 .course-item .more .duration,
@@ -556,6 +568,10 @@ a {
     justify-content: space-around;
 }
 
+.stats .item .number {
+    line-height: normal;
+}
+
 .stats .stats-list .desc {
     color: #767e7e;
     font-size: 1.8rem;
@@ -567,6 +583,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    line-height: normal;
 }
 
 /* testimonial */
@@ -611,6 +628,7 @@ a {
     font-weight: 400;
     display: flex;
     align-items: center;
+    line-height: normal;
 }
 
 .testimonial .quote-item .author::before {
@@ -715,11 +733,16 @@ a {
     width: 36%;
 }
 
+.cta-container .cta-info .title {
+    line-height: normal;
+}
+
 .cta-container .cta-info .desc {
     color: #767e7e;
     font-size: 1.8rem;
     font-weight: 400;
     margin-top: 18px;
+    line-height: normal;
 }
 
 .cta-container .body .cta-btn {
@@ -741,6 +764,7 @@ a {
     color: #2e2e2e;
     font-size: 1.8rem;
     font-weight: 500;
+    line-height: normal;
 }
 
 .footer .column .socials,
@@ -748,6 +772,7 @@ a {
     color: #535353;
     font-size: 1.6rem;
     font-weight: 400;
+    line-height: normal;
 }
 
 .footer .column .list li:first-child {
@@ -768,4 +793,5 @@ a {
     font-size: 1.8rem;
     font-weight: 400;
     text-align: center;
+    line-height: normal;
 }
