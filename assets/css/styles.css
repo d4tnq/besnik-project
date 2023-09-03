@@ -725,3 +725,47 @@ a {
 .cta-container .body .cta-btn {
     margin-right: 13%;
 }
+
+/* Footer */
+
+.footer .row {
+    padding: 131px 0 80px;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .row .title {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.footer .column .socials,
+.footer .column .list a {
+    color: #535353;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.footer .column .list li:first-child {
+    margin-top: 25px;
+}
+
+.footer .column .list li + li {
+    margin-top: 20px;
+}
+.footer .column .socials {
+    display: flex;
+    gap: 9px;
+}
+
+.footer .copyright {
+    padding-bottom: 50px;
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
+}
